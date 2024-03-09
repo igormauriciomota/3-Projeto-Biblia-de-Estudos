@@ -78,6 +78,12 @@ justify-content: center;
 align-items: center;
 }
 
+/* Navegação dos menus-acima da biblia */
+.menu {
+    margin-bottom: auto;
+    padding: 30px;
+}
+
 .menu > li, .menu > a {
 display: inline-block;
 

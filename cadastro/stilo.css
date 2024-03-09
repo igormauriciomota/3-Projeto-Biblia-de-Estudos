@@ -31,7 +31,7 @@ body {
 
 }
 
-/* form formulario */
+/* ==================form formulario ============================*/
 
 #main-container {
     width: 500px;
@@ -115,7 +115,7 @@ input[type="submit"] {
     display: none;
 }
 
-/* Navegação */
+/* =========================Navegação========================== */
 html, body {
     height: 100%;
     margin: 1px;
@@ -168,7 +168,7 @@ html, body {
     cursor: pointer;
     }
     
-    /*==== Inicio da navegação e menus =====*/
+    /*============ Inicio da navegação e menus =========*/
     
     .box2 {
     width: 100%;
