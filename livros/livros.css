@@ -6,7 +6,7 @@ margin: 1px;
 
 body{
 display: grid;
-grid-template-rows: 300px 300px 1500px 40px;
+grid-template-rows: 300px 360px 1080px 30px;
 grid-template-columns: 1fr 1fr auto;
 grid-gap: 3px;
 }

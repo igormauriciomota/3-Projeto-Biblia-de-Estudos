@@ -6,7 +6,7 @@ margin: 1px;
 
 body{
 display: grid;
-grid-template-rows: 300px 300px 1500px 40px;
+grid-template-rows: 300px 360px 1500px 40px;
 grid-template-columns: 1fr;
 grid-gap: 3px;
 }
@@ -77,6 +77,13 @@ display: flex;
 justify-content: center;
 align-items: center;
 }
+
+/* Menus navegação subir os links */
+.menu {
+    margin-bottom: auto;
+    padding: 30px;
+}
+
 
 .menu > li, .menu > a {
 display: inline-block;

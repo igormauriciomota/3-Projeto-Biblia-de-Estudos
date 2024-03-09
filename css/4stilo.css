@@ -6,7 +6,7 @@ margin: 1px;
 
 body{
 display: grid;
-grid-template-rows: 150px 300px 10000px 40px;
+grid-template-rows: 150px 360px 10000px 30px;
 grid-template-columns: 1fr 1fr auto;
 grid-gap: 3px;
 }
@@ -80,6 +80,13 @@ display: flex;
 justify-content: center;
 align-items: center;
 }
+
+/* Menus navegação subir os links */
+.menu {
+    margin-bottom: auto;
+    padding: 30px;
+}
+
 
 .menu > li, .menu > a {
 display: inline-block;
