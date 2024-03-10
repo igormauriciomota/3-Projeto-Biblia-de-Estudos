@@ -186,61 +186,149 @@ color:  rgb(234, 212, 16);
 }
 
 /* Fim BOX - 3 GENESIS */
+#tres-colunas #primario {
+    width: 1000px;
+    float: left;
+    margin: 0 0px 20px 10px;
+}
+/* 1-box */
+#primario {
+    width: 450px;
+    float:inline-start;
+    margin: 0 0 20px 10px;
+}
+/* 2-box */
+#secundario {
+    width: 450px;
+    float: left;
+    margin: 0 0 20px 20px;
+}
+/* 3-box */
+#lateral {
+    width: 180px;
+    float: left;
+    margin: 0 0 20px;
+}
 
-/* Inicio Box-4 : EXODO */
+#tres-colunas {
+    width: 1000px;
+    height: 700px;
+    margin: 0 auto;
+}
 
-.box4 {
-    background-color: #fff;
-    grid-area: 3/2/4/3;
-    margin: 5px;
-    text-align: justify;
-    background-position: center center;
-    }
-
-/* FIM Box-4 : EXODO */
-
-/* Inicio Box-4 : LEVITICOS */
-
-.box5 {
-    background-color: #fff;
-    grid-area: 3/2/4/3;
-    margin: 5px;
-    text-align: justify;
-    background-position: center center;
-    }
-
-/* FIM Box-4 : LEVITICOS */
-
-/* Inicio Box-4 : NUMEROS */
-
-.box6 {
-    background-color: #fff;
-    grid-area: 3/2/4/3;
-    margin: 5px;
-    text-align: justify;
-    background-position: center center;
-    }
-
-/* FIM Box-4 : NUMEROS */
-
-/* Inicio Box-4 : DEUTERONOMIO  */
-
-.box7 {
-    background-color: #fff;
-    grid-area: 3/2/4/3;
-    margin: 5px;
-    text-align: justify;
-    background-position: center center;
-    }
-
-/* FIM Box-7 : DEUTERONOMIO */
-
-/* Rodape */
-
-.box8 {
-background-color: brown;
-grid-area: 4/1/5/4;
+/* Caixa */
+.caixa {
+    margin: 10px;
+    padding: 5px;
+    background: #f3f3f3 url(../img/fundo-caixa.png);
 
 }
+
+h2 {
+    font-size: 1em;
+    background: #294c71;
+    color: #fff;
+    padding: 5px;
+}
+/* Conteudo da baixa lateral */
+.caixa-conteudo {
+    background: #fff;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.formatar {
+    text-align: justify;
+}
+
+/* Formatando Imagens */
+
+img.imagem-principal {
+    width: 98%;
+    border: 3px solid #dfdfdf;
+}
+
+img.imagem-secundaria {
+    width: 98%;
+    border: 3px solid #9c6c6c;
+}
+
+/* Formatando Cabeçalhos */
+h3 {
+    text-transform: uppercase;
+    display: inline;
+    font-size: 0.8em;
+    padding: 3px;
+}
+
+.destaque h3 {
+    background: #b10333;
+    color: #fff;
+}
+
+.entrevista h3 {
+    background: #de003e;
+    color: #fff;
+}
+
+/* Rodape */
+footer {
+    background: #294c71;
+    padding: 20px;
+    clear: both;
+}
+
+/* Formatação menu lateral */
+#lateral ul a {
+    font-size: 0.9em;
+    padding: 3px;
+    display: block;
+    line-height: 30px;
+    color #000;
+    text-decoration: none;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+#lateral ul a:hover {
+    background: #f9f9f9 url(../img/marcador.png) no-repeat left center;
+    padding-left: 20px;
+    color: #a1a1a1;
+}
+
+/* formatando formulario */
+label {
+    display: block;
+    cursor: pointer;
+}
+
+input {
+    padding: 5px;
+    margin: 2px;
+    width: 125px;
+    font-size: 0.9em;
+    background-color: #fff;
+}
+
+input.submit {
+    width: 80px;
+    color: #fff;
+    background-color: #b10333;
+    border: 2px splid #870529;
+    padding: 5px;
+}
+
+#container-rodape {
+    background: #294c71;
+    padding: 20px;
+}
+
+
+/* Inicio Rodape */
+#rodape {
+    width: 750px;
+    margin: 0 auto;
+    color: #fff;
+}
+
 
 
