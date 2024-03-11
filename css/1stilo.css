@@ -6,8 +6,8 @@ margin: 1px;
 
 body{
 display: grid;
-grid-template-rows: 300px 360px 1500px 40px;
-grid-template-columns: 1fr;
+grid-template-rows: 300px 360px 100%;
+grid-template-columns: 1fr 1fr 1fr;
 grid-gap: 3px;
 }
 
@@ -140,13 +140,6 @@ display: block;
 
 /* INICIO BOX-3 GENESIS */
 
-.box3{
-    background-color: #fff;
-    grid-area: 3/1/4/2;
-    margin: 10px;
-    text-align: justify;
-    
-    }
 
 /* Inicio Menu Pentateuco BOX - 3*/
 
@@ -186,34 +179,10 @@ color:  rgb(234, 212, 16);
 }
 
 /* Fim BOX - 3 GENESIS */
-#tres-colunas #primario {
-    width: 1000px;
-    float: left;
-    margin: 0 0px 20px 10px;
-}
-/* 1-box */
-#primario {
-    width: 450px;
-    float:inline-start;
-    margin: 0 0 20px 10px;
-}
-/* 2-box */
-#secundario {
-    width: 450px;
-    float: left;
-    margin: 0 0 20px 20px;
-}
-/* 3-box */
-#lateral {
-    width: 180px;
-    float: left;
-    margin: 0 0 20px;
-}
 
-#tres-colunas {
-    width: 1000px;
-    height: 700px;
-    margin: 0 auto;
+.container {
+    display: grid;
+    grid-auto-flow: column;
 }
 
 /* Caixa */
@@ -237,6 +206,9 @@ h2 {
     margin-top: 5px;
 }
 
+li {
+    list-style-type: none;
+}
 .formatar {
     text-align: justify;
 }
@@ -317,18 +289,6 @@ input.submit {
     padding: 5px;
 }
 
-#container-rodape {
-    background: #294c71;
-    padding: 20px;
-}
-
-
-/* Inicio Rodape */
-#rodape {
-    width: 750px;
-    margin: 0 auto;
-    color: #fff;
-}
 
 
 
