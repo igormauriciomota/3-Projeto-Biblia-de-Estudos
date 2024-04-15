@@ -6,7 +6,7 @@ margin: 1px;
 
 body{
 display: grid;
-grid-template-rows: 300px 360px 1500px 40px;
+grid-template-rows: 300px 300px 1500px 40px;
 grid-template-columns: 1fr 1fr auto;
 grid-gap: 3px;
 }
@@ -77,11 +77,6 @@ display: flex;
 justify-content: center;
 align-items: center;
 }
-/* Menus navegação subir os links */
-.menu {
-    margin-bottom: auto;
-    padding: 30px;
-}
 
 .menu > li, .menu > a {
 display: inline-block;
@@ -150,9 +145,11 @@ background-color: #fff;
 grid-area: 3/1/4/2;
 margin: 10px;
 text-align: justify;
+
 }
 
 /* Rodape */
+
 .box6 {
 background-color: brown;
 grid-area: 4/1/5/4;
