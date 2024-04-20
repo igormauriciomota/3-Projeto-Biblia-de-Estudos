@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <script src="js/jquery-3.7.1.min.js"></script>
+        <script src="Javascript/jquery-3.7.1.min.js"></script>
         <title>Pentateuco-mindshift</title>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,6 +9,33 @@
         <link rel="stylesheet" href="css/1stilo.css">
 
     </head>
+
+    <style>
+        .exemplo, #esconder {
+
+            
+            color: white;
+            font-size: 18px;
+            padding: 10px 15px;
+            display: inline-block;
+        }
+
+        .exemplo {
+            background-color: #1096D5;
+        }
+
+        #esconder {
+            background-color: #27ae61;
+            cursor: pointer;
+            transition: 1s;
+        }
+
+        #esconder:hover {
+            background-color: #034732;
+            transition: 1s;
+        }
+
+    </style>
         <body>
             <!-- cabeçalho logo e titulo -->
             <header class="box1">
@@ -163,11 +190,19 @@
             
                 <!--================ Inicio Post Genesis ==================-->
                 <div class="container2">
+
                     <div class="item item-1">
                         Item 1
                     </div>
                     <div class="item item-2">
-                        Item 2
+
+                        <h4>Item 2</h4>
+
+                        <div class="exemplo">1</div>
+                        <div class="exemplo">2</div>
+                        <div class="exemplo">3</div>
+                        <div id="esconder">Esconder</div>
+
                     </div>
                     <div class="item item-3">
                         Item 3
