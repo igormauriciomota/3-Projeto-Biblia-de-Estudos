@@ -26,8 +26,9 @@ body {
     padding-top: 1px;
     display: grid;
     grid-template-rows: 300px 300px 750px 30px;
-    grid-template-columns: 1fr 1fr auto;
-    grid-gap: 3px;
+    grid-template-columns: 1fr;
+    grid-template: max-content;
+    
 
 }
 
@@ -47,6 +48,16 @@ body {
     text-align: center;
     margin-bottom: 25px;
     font-size: 1.6rem;
+}
+
+#main-container1 {
+    width: 500px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    padding: 25px;
+    background-color: #fff;
 }
 
 form {
@@ -129,9 +140,9 @@ html, body {
     }
     
     *{
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     }
     
     /* marca e logo (bix1 = header)*/
@@ -256,13 +267,47 @@ html, body {
 
     /* Inicio Box 03 */
 .box3{
-        background-color: #fff;
-        grid-area: 3/2/4/2;
-        margin: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: #fff;
+
+}
+    /* Fim Box 03 */
+
+        /* Inicio Box 04 */
+
+.box4{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: #fff;
+
         
-        }
+}
+    /* Fim box 04 */
+
+    /* Inicio Box 05 */
+
+.box5{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: #fff;
+}
+
+        /* Fim box 05 */
     
-    /* Rodape */
+    /* Inicio Box 06 Rodape */
     
 .box6 {
     padding: 10px;
