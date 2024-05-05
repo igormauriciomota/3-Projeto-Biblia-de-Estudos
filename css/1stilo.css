@@ -44,6 +44,15 @@ body {
     margin-right: 3px;
     background-color: #f5f5f5;
     border-radius: 10px;
+}
+
+#main-container1 {
+    width: 535px;
+    height: 600px;
+    margin-left: 3px;
+    margin-right: 3px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
     padding: 15px;
     margin: 5px;
 }
@@ -277,11 +286,12 @@ html, body {
     
     .box4{
         display: flex;
-        flex-wrap: wrap;
         flex-direction: row;
-        justify-content: center;
+        flex-wrap: wrap;
         align-items: center;
-        align-content: normal;
+        align-content: center;
+        margin: 5px;
+        padding: 5px;
         background-color: #fff;
     
             
