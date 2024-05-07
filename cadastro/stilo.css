@@ -1,6 +1,5 @@
 /* geral */
 * {
-    margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Helvetica, sans-serif;
@@ -27,7 +26,6 @@ body {
     display: grid;
     grid-template-rows: 300px 300px 750px 30px;
     grid-template-columns: 1fr;
-    grid-template: max-content;
     
 
 }
@@ -132,18 +130,6 @@ html, body {
     margin: 1px;
     }
     
-    body{
-    display: grid;
-    grid-template-rows: 300px 360px 650px 40px;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 3px;
-    }
-    
-    *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    }
     
     /* marca e logo (bix1 = header)*/
     .box1 {
@@ -198,8 +184,6 @@ html, body {
     
     nav {
     background-color: rgb(14, 60, 29);
-    width: 100%;
-    height: 150px;
     margin: 0 auto;
     display: flex;
     justify-content: center;
