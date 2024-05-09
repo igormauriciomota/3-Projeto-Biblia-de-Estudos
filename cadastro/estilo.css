@@ -1,23 +1,36 @@
-/* corpo */
-html, body {
-    height: 100%;
-    margin: 1px;
-}
-
-body{
-    display: grid;
-    grid-template-rows: 300px 360px 1fr;
-    grid-template-columns: 1fr;
-    grid-gap: 3px;
-}
-
-*{
-    margin: 0;
+/* geral */
+* {
     padding: 0;
     box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+    border: none;
+
 }
 
-/* marca e logo (bix1 = header)*/
+input, label {
+    display: block;
+    width: 100%;
+}
+
+input:focus, label:focus {
+    outline: none;
+}
+
+a {
+    color: #b72076;
+}
+
+body {
+    padding-top: 1px;
+    display: grid;
+    grid-template-rows: 300px 500px 650px 20px;
+    grid-template-columns: 1fr;
+    
+
+}
+
+/* marca e logo (Box 01 = header)*/
+
 .box1 {
     background-color: rgb(14, 60, 29);
     grid-area: 1/1/2/4;
@@ -51,7 +64,7 @@ border: 2px solid #d5e2e2;
 cursor: pointer;
 }
 
-/*==== Inicio da navegação e menus =====*/
+/*==== Inicio da Navegação e menus Box 02 =====*/
 
 .box2 {
 width: 100%;
@@ -112,7 +125,7 @@ color:  rgb(234, 212, 16);
 .submenu {
 position: absolute;
 background-color: #0d430cbd;
-width: 190px;
+width: 198px;
 left: 5;
 display: none;
 margin: 1px;
@@ -122,7 +135,7 @@ margin: 1px;
 .submenu2 {
 position: absolute;
 left: 100%;
-width: 180px;
+width: 190px;
 top: 0;
 background-color: #224934;
 display: none;
@@ -152,33 +165,143 @@ display: block;
     
 }
 
-p {
-    text-align: justify;
+/* Fim box 03 */
+
+/* Inicio box 04 */
+
+.box4{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: #fff;
+
+        
+}
+    /* Fim box 04 */
+
+    /* Inicio Box 05 */
+
+.box5{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: #fff;
 }
 
-#main-container {
-    width: 550px;
-    height: 600px;
-    margin-left: 3px;
-    margin-right: 3px;
+    /* Fim box 05 */
+    
+    /* Inicio Box 06 Rodape */
+    
+.box6 {
+    padding: 10px;
     background-color: #f5f5f5;
-    border-radius: 5px;
-    padding: 3px;
-    margin: 3px;
+    background-position: left;
+    grid-area: 4/1/5/4;
+}
+
+/* Form formulario */
+
+#main-container {
+    width: 530px;
+    height: 530px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    padding: 25px;
 }
 
 #main-container1 {
-    width: 535px;
-    height: 630px;
-    margin-left: 3px;
-    margin-right: 3px;
-    background-color: #f5f5f5;
+    width: 500px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 10px;
-    padding: 15px;
-    margin: 5px;
+    padding: 25px;
+    background-color: #fff;
 }
 
-/* Fim Box 03 */
+#main-container h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 1.6rem;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.full-box {
+    flex: 1 1 100%;
+    position: relative;
+}
+
+.half-box {
+    flex: 1 1 45%;
+    position: relative;
+}
+
+.spacing {
+    margin-right: 2.5%;
+}
+
+label {
+    font-weight: bold;
+    font-size: .8rem;
+}
+
+input {
+    border-bottom: 2px solid #323232;
+    padding: 10px;
+    font-size: .9rem;
+    margin-bottom: 40px;
+}
+
+input:focus {
+    border-color: #be9749;
+}
+
+input[type="submit"] {
+    background-color: #be9749;
+    color: #f5f5f5;
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+}
+
+#agreement {
+    margin-right: 5px;
+}
+
+#agreement, #agreement-label {
+    display: inline-block;
+    width: auto;
+
+}
+
+/* Validação */
+.error-validation {
+    color: #ff1a1a;
+    position: absolute;
+    top: 57px;
+    font-size: .8rem;
+}
+
+.template {
+    display: none;
+}
+
+/* Fim formulario */
+
+/* Inicio Rodape */
 
 footer {
     width: 100%px;
