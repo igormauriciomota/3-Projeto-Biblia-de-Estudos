@@ -30,16 +30,6 @@ body {
 }
 
 /* marca e logo (bix1 = header)*/
-button {
-    background: rgb(217, 224, 227);
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    margin: 5px;
-    padding: 5px;
-}
-
-
 .box1 {
     height: 100%;
     background-image: url(../img/6.png);
@@ -47,8 +37,31 @@ button {
     background-size: cover;
     background-position: center center;
     grid-area: 1/1/2/4;
+}
+
+.interface{
+max-width: 1280px;
+margin: 0 auto;
+}
+
+.top-header > .interface{
+display: flex;
+align-items: center;
+justify-content: space-between;
 
 }
+
+.top-header .btn-social button{
+margin: 5px;
+width: 50px;
+height: 50px;
+font-size: 20px;
+border-radius: 50%;
+background-color: #d5e2e2;
+border: 2px solid #d5e2e2;
+cursor: pointer;
+}
+/* Fim marca e Logo */
 
 /*==== Inicio da Navegação e menus Box 02 =====*/
 
