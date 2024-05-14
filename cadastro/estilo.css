@@ -1,5 +1,12 @@
 /* geral */
+
+html, body {
+    height: 100%;
+    margin: 1px;
+}
+
 * {
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Helvetica, sans-serif;
@@ -22,8 +29,8 @@ a {
 
 body{
     display: grid;
-    grid-template-rows: 300px 350px 600px 40px;
-    grid-template-columns: 1fr 1fr auto;
+    grid-template-rows: 400px 100px 600px 40px;
+    grid-template-columns: 1fr;
     grid-gap: 3px;
     }
 
@@ -122,7 +129,7 @@ color:  rgb(234, 212, 16);
 .submenu {
 position: absolute;
 background-color: #0d430cbd;
-width: 190px;
+width: 198px;
 left: 5;
 display: none;
 margin: 1px;

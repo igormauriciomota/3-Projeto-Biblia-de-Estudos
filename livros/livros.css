@@ -6,8 +6,8 @@ margin: 1px;
 
 body{
 display: grid;
-grid-template-rows: 300px 360px 1080px 30px;
-grid-template-columns: 1fr 1fr auto;
+grid-template-rows: 300px 360px 600px 30px;
+grid-template-columns: 1fr;
 grid-gap: 3px;
 }
 
@@ -15,6 +15,8 @@ grid-gap: 3px;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+    border: none;
 }
 
 /* marca e logo (bix1 = header)*/
@@ -111,7 +113,7 @@ color:  rgb(234, 212, 16);
 .submenu {
 position: absolute;
 background-color: #0d430cbd;
-width: 190px;
+width: 198px;
 left: 5;
 display: none;
 margin: 1px;
