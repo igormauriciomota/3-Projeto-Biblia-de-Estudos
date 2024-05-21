@@ -67,8 +67,14 @@ cursor: pointer;
     
     /* Menus navegação subir os links */
     .menu {
+        width: 100%;
+        height: 80px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         margin-bottom: auto;
-        padding: 30px;
+        padding: 15px;
     }
     
     
@@ -98,7 +104,7 @@ cursor: pointer;
     
     .submenu {
     position: absolute;
-    background-color: #475447bd;
+    background-color: #2d302dde;
     width: 190px;
     left: 5;
     display: none;
