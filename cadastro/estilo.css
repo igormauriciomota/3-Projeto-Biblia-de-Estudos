@@ -29,15 +29,15 @@ a {
 
 body{
     display: grid;
-    grid-template-rows: 400px 100px 600px 40px;
+    grid-template-rows: 450px 5fr;
     grid-template-columns: 1fr;
     grid-gap: 3px;
-    }
+}
 
 /* marca e logo (bix1 = header)*/
 .box1 {
     height: 100%;
-    background-image: url(../img/5.png);
+    background-image: url(../img/2.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -73,7 +73,6 @@ cursor: pointer;
 .box2 {
 width: 100%;
 height: 100%;
-background-image: url(../img/22.png);
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center center;
@@ -86,7 +85,7 @@ list-style: none;
 }
 
 nav {
-background-color: rgb(14, 60, 29);
+
 width: 100%;
 height: 150px;
 margin: 0 auto;
@@ -96,9 +95,16 @@ align-items: center;
 }
 
 /* Menus navegação subir os links */
+/* Menus navegação subir os links */
 .menu {
+    width: 100%;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-bottom: auto;
-    padding: 30px;
+    padding: 15px;
 }
 
 
@@ -112,47 +118,47 @@ position: relative;
 }
 
 .menu a {
-text-decoration: none;
-color: rgba(209, 188, 52, 0.928);
-display: block;
-padding: 10px 1.5rem;
-transition: background-color .30s ease, color .30s ease;
-}
-
-.menu a:hover {
-background-color: #0d430cbd;
-color:  rgb(234, 212, 16);
-}
-
-/* Submenu level 1 Styles */
-
-.submenu {
-position: absolute;
-background-color: #0d430cbd;
-width: 198px;
-left: 5;
-display: none;
-margin: 1px;
-}
-
-/* Submenu level 2 Styles */
-.submenu2 {
-position: absolute;
-left: 100%;
-width: 180px;
-top: 0;
-background-color: #224934;
-display: none;
-}
-/* Show menu on hover */
-
-.menu li:hover > .submenu {
-display: block;
-}
-
-.submenu li:hover > .submenu2 {
-display: block;
-}
+    text-decoration: none;
+    color: rgba(233, 241, 238, 0.928);
+    display: block;
+    padding: 10px 1.5rem;
+    transition: background-color .30s ease, color .30s ease;
+    }
+    
+    .menu a:hover {
+    background-color: #0c0d0c;
+    color:  rgb(207, 13, 13);
+    }
+    
+    /* Submenu level 1 Styles */
+    
+    .submenu {
+    position: absolute;
+    background-color: #2d302dde;
+    width: 198px;
+    left: 5;
+    display: none;
+    margin: 1px;
+    }
+    
+    /* Submenu level 2 Styles */
+    .submenu2 {
+    position: absolute;
+    left: 100%;
+    width: 180px;
+    top: 0;
+    background-color: #1d201eca;
+    display: none;
+    }
+    /* Show menu on hover */
+    
+    .menu li:hover > .submenu {
+    display: block;
+    }
+    
+    .submenu li:hover > .submenu2 {
+    display: block;
+    }
 /* Fim Box 2 Navegação */
 
 /* Inicio Box 03 */
